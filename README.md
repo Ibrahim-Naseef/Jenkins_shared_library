@@ -30,7 +30,7 @@ A Shared Library is a Groovy-based, version-controlled collection of pipeline lo
 ## 📂 Repository Structure
 
 ```
-Jennkins_shared_Library/
+Jenkins_shared_library/
 ├── vars/
 │   ├── code_checkout.groovy          # Git clone / checkout
 │   ├── docker_build.groovy           # Build a Docker image
@@ -141,11 +141,11 @@ trivy_scan()
    | Default version | `main` (or a tag/branch you want as default) |
    | Retrieval method | Modern SCM |
    | Source Code Management | Git |
-   | Project Repository | `https://github.com/Ibrahim-Naseef/Jennkins_shared_Library.git` |
+   | Project Repository | `https://github.com/Ibrahim-Naseef/Jenkins_shared_library.git` |
    | Credentials | Add if the repo is private |
 
    ![Shared library configuration step 1](assests/Sharedlib-config-1.png)
-   ![Shared library configuration step 2](assests/Sharedlib-config-2.png)
+   ![Shared library configuration step 2 - project repository set to this repo](assests/Sharedlib-config-2-updated.png)
 
 4. Click **Save**.
 
